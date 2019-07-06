@@ -1,0 +1,13 @@
+scv,50,0,17,1,0,0,0,terran,command_center/orbital_command/planetary_fortress,no
+marine,50,0,25,1,0,0,0,terran,barracks/barracks_with_tech_lab/barracks_with_reactor,no
+marauder,100,25,30,2,0,0,0,terran,barracks_with_tech_lab,no
+reaper,50,50,45,1,0,0,0,terran,barracks_with_tech_lab,no
+ghost,200,100,40,2,0,0,0,terran,barracks_with_tech_lab,ghost_academy
+hellion,100,0,30,2,0,0,0,terran,factory/factory_with_reactor/factory_with_tech_lab,no
+siege_tank,150,125,45,3,0,0,0,terran,factory_with_tech_lab,no
+thor,300,200,60,6,0,0,0,terran,factory_with_tech_lab,armory
+medivac,100,100,42,2,0,0,0,terran,starport/starport_with_reactor/starport_with_tech_lab,no
+viking,150,75,42,2,0,0,0,terran,starport/starport_with_reactor/starport_with_tech_lab,no
+raven,100,200,60,2,0,0,0,terran,starport_with_tech_lab,no
+banshee,150,100,60,3,0,0,0,terran,starport_with_tech_lab,no
+battlecruiser,400,300,90,6,0,0,0,terran,starport_with_tech_lab,fusion_core

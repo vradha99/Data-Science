@@ -1,0 +1,11 @@
+drone
+drone
+spawning_pool
+drone
+drone
+overlord
+zergling
+zergling
+zergling
+queen
+
