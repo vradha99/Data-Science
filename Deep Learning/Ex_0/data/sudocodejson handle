@@ -1,0 +1,93 @@
+import json
+import os
+from pprint import pprint
+
+os.chdir("") #change to dir where json file is
+with open('name_of_file') as f:
+	data = json.load(f) #data here is a dict
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'numpy' has no attribute 'type'
+>>> type(data)
+<class 'dict'>
+>>> import randon
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'randon'
+>>> import random
+>>> random_data = random.shuffle(data.values())
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3.6/random.py", line 274, in shuffle
+    x[i], x[j] = x[j], x[i]
+TypeError: 'dict_values' object does not support indexing
+>>> data[1]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 1
+>>> data["1"]
+7
+>>> b_data = data.values()
+>>> random_data = random.shuffle(b_data)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3.6/random.py", line 274, in shuffle
+    x[i], x[j] = x[j], x[i]
+TypeError: 'dict_values' object does not support indexing
+>>> b_data = list(data.values())
+>>> 
+>>> random_data = random.shuffle(b_data)
+>>> print(random_data)
+None
+>>> type(random_data)
+<class 'NoneType'>
+>>> data("2")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'dict' object is not callable
+>>> data("0")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'dict' object is not callable
+>>>
+>>> shuffle_index = np.shuffle(b)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'numpy' has no attribute 'shuffle'
+>>> shuffle_index = np.random.shuffle(b)
+>>> shuffle_index
+>>> print(shuffle_index)
+None
+>>> import random
+>>> shuffle_index = random.shuffle(b)
+>>> shuffle_index
+>>> shuffle_index = np.random.shuffle(b)
+>>> shuffle_index
+>>> type(b)
+<class 'numpy.ndarray'>
+>>> b
+array([ 31.,  29.,   8.,  12.,  58.,  34.,   3.,  36.,  74.,  22.,  56.,
+        15.,  13.,   1.,  45.,   5.,  48.,  43.,  85.,  76.,  84.,  77.,
+        32.,  73.,  55.,  41.,  40.,  59.,  28.,  93.,  24.,  30.,  37.,
+         2.,  54.,  98.,  47.,  78.,  25.,  57.,  81.,  21.,  65.,  42.,
+        95.,  27.,  50.,  71.,  14.,  49.,  97.,  46.,  51.,  91.,  75.,
+        90.,  80.,  39.,  60.,  17.,  64.,  96.,  52.,  99.,  72.,  11.,
+        10.,  83.,  62.,  44.,  61.,  38.,   0.,  87.,  53.,   4.,  16.,
+        92.,  19.,  23.,  35.,   9.,  66.,  82.,  79.,  20.,  33.,  88.,
+         6.,  68.,  70.,  26.,  89.,  86.,   7.,  67.,  69.,  94.,  18.,
+        63.])
+>>> b[0:10]
+array([ 31.,  29.,   8.,  12.,  58.,  34.,   3.,  36.,  74.,  22.])
+>>> b[0:11]
+array([ 31.,  29.,   8.,  12.,  58.,  34.,   3.,  36.,  74.,  22.,  56.])
+>>> data["31"]
+8
+>>> str(b[0])
+'31.0'
+>>> str.replace(str(b[0]), ".0","")
+'31'
+>>> data[str.replace(str(b[0]), ".0","")]
+8
+>>> 
+

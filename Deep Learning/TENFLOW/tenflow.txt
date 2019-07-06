@@ -1,0 +1,23 @@
+Tensor Flow:
+Excercise:6
+
+Images of Solar Modules:Task:determine the 
+softmax won't work---> multi level problem
+
+Internally---> Graph
+API on C++
+
+Nodes=Operations 
+Edges=Data
+
+"Mid-Level--> API"
+
+Tensor Flow --->Session:: CPU,GPU or different ,machines
+
+
+
+
+
+
+
+
