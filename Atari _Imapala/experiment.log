@@ -1,0 +1,10 @@
+2019-04-17 13:32:53,275 - tensorflow - INFO - Starting all processes.
+2019-04-17 13:32:53,804 - tensorflow - INFO - All processes started.
+2019-04-17 13:32:53,981 - tensorflow - INFO - Graph was finalized.
+2019-04-17 13:32:53,991 - tensorflow - INFO - Restoring parameters from tf_log/model.ckpt-85200
+2019-04-17 13:32:54,344 - tensorflow - INFO - Running local_init_op.
+2019-04-17 13:32:55,495 - tensorflow - INFO - Done running local_init_op.
+2019-04-17 13:32:55,528 - tensorflow - INFO - Testing game agent for Breakout-v0
+2019-04-17 13:33:00,900 - tensorflow - INFO - Mean episode return: 0.500000
+2019-04-17 13:33:00,900 - tensorflow - INFO - Closing all processes.
+2019-04-17 13:33:03,006 - tensorflow - INFO - All processes closed.

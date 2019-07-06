@@ -1,0 +1,10 @@
+atari-py==0.1.7
+dm-sonnet==1.23
+imageio==2.5.0
+gym==0.12.1
+opencv-python==4.0.0.21
+PyOpenGL==3.1.0
+pytest==4.4.0
+scikit-image==0.14.2
+tensorflow==1.9.0
+tqdm==4.31.1
